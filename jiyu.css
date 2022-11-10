@@ -1,0 +1,90 @@
+#back{
+	width: 100%;
+	height: auto;
+	background: url("image/blue.jpg");
+}
+
+nav{
+    width: 1247px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EE7700 ;
+    height: 40px;
+    font-size: x-large;
+    font-weight: 800;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 12px 50px;
+    /*padding: 1px 5px;*/
+}
+
+nav ul li a:hover{
+background-color: #BB5500;
+}
+
+.nud{
+    display: inline-block;
+}
+
+.nuda{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nudd{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+
+.nud:hover .nudd{
+    display: block;
+}
+
+.nudd a:hover{
+    background-color: aquamarine;
+}
+
+.nudd a{
+    display: block;
+    color: crimson;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+}
+
+.wid1{
+width:500px;
+line-height:4;
+}
+
+.sec{
+text-indent:2em;
+}
+
+.left11{
+margin-left:300px;
+}
+
+.tab02 td{
+    border:2px groove;
+    border-color: bisque;
+    background-color: white;
+    height: 50px;
+    width:200px;
+}
+
+
+
